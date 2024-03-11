@@ -9,7 +9,8 @@ Uninstall from Programs & Features with the uninstaller.
 
 Reboot (or you probably can get away with killing all node-related processes from Task Manager).
 
-Look for these folders and remove them (and their contents) if any still exist. Depending on the version you installed, UAC settings, and CPU architecture, these may or may not exist:
+Look for these folders and remove them (and their contents) if any still exist. Depending on the 
+version you installed, UAC settings, and CPU architecture, these may or may not exist:
 
 C:\Program Files (x86)\Nodejs
 C:\Program Files\Nodejs
@@ -19,6 +20,7 @@ C:\Users\{User}\.npmrc (and possibly check for that without the . prefix too)
 C:\Users\{User}\AppData\Local\Temp\npm-*
 Check your %PATH% environment variable to ensure no references to Nodejs or npm exist.
 
-If it's still not uninstalled, type where node at the command prompt and you'll see where it resides -- delete that (and probably the parent directory) too.
+If it's still not uninstalled, type where node at the command prompt and you'll see where it resides 
+-- delete that (and probably the parent directory) too.
 
 Reboot, for good measure.
